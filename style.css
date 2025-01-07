@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#282828 ;
+  }
+  
+  header {
+    background-color:#282828 ;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 13px;
+    padding:5px;
+    font-weight:500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .header-content {
+    text-align: center;
+    margin-top: 30px;
+    color:white;
+  }
+  
+  header h1 {
+    margin: 0;
+    
+    justify-content: space-between;
+    letter-spacing: 10px;
+    font-family: "EB Garamond", serif;
+
+  }
+  
+  header p {
+    margin-top: 30px ;
+    
+  }
+  
+  
+  header p i{
+color:#368338e1;
+  }
+  
+  header button:hover {
+    background-color: #45a049;
+  }
+  
+  .movie-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+  }
+  
+  .movie-card {
+    width: 150px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .movie-card p {
+    margin: 10px 0 5px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .movie-card span {
+    font-size: 0.9em;
+    color: gray;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+ 
+  
+  nav a i{
+   color: #368338e1;
+   padding:5px;
+  }
+  .header-content .underline{
+    width:20%;
+    height:20px;
+  }
